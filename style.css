@@ -1,0 +1,68 @@
+#main {
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+        sans-serif;
+    text-align: center;
+    background-color: hsl(180, 100%, 67%);
+    border: solid 2px #ffd700;
+    color: #4d5156;
+    line-height: 1.25;
+}
+
+#title {
+    font-weight: lighter;
+}
+
+#title b {
+    font-size: smaller;
+    font-style: italic;
+}
+
+#img-div {
+    margin-bottom: 50px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#img-caption {
+    font-weight: lighter;
+}
+
+hr {
+    width: 70vw;
+}
+
+#story {
+    display: block;
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+#tribute-info hr {
+    width: initial;
+}
+
+#tribute-info {
+    margin-bottom: 50px;
+}
+@media (max-width: 450px) {
+    #story {
+        font-size: 14px;
+        width: 80vw;
+    }
+
+    #links ul li a {
+        font-size: 14px;
+    }
+}
+
+#links ul li {
+    margin-top: 10px;
+}
